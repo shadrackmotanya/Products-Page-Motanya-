@@ -1,0 +1,62 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #2d6cdf;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  margin: 20px;
+}
+
+.home {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #2d6cdf;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px;
+  background: #2d6cdf;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
