@@ -131,3 +131,34 @@ button:hover {
   margin: 20px auto;
   padding: 10px;
 }
+
+.image-guide {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-guide p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.main-image {
+  width: 90%;
+  max-width: 900px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.product small {
+  display: block;
+  margin-top: 5px;
+  color: gray;
+  font-size: 12px;
+}
+
+.Intro {
+  text-align: center;
+  font-size: 16px;
+  color: rgb(30, 30, 75);
+}
